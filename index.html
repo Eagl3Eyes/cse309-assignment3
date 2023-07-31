@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- *******  Link To CSS Style Sheet  ******* -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <!-- *******  Font Awesome Icons Link  ******* -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+
+    <!-- *******  Link To Goggle Fonts  *******  -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,500;0,600;0,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contact Section</title>
+</head>
+
+<body>
+    <div class="container">
+        <main class="row">
+
+            <section class="col left">
+
+                <div class="contactTitle">
+                    <h2>Get In Touch</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+                </div>
+
+                <div class="contactInfo">
+
+                    <div class="iconGroup">
+                        <div class="icon">
+                            <i class="fa-solid fa-phone"></i>
+                        </div>
+                        <div class="details">
+                            <span>Phone</span>
+                            <span>+8801900000000</span>
+                        </div>
+                    </div>
+
+                    <div class="iconGroup">
+                        <div class="icon">
+                            <i class="fa-solid fa-envelope"></i>
+                        </div>
+                        <div class="details">
+                            <span>Email</span>
+                            <span>cse307@gmail.com</span>
+                        </div>
+                    </div>
+
+                    <div class="iconGroup">
+                        <div class="icon">
+                            <i class="fa-solid fa-location-dot"></i>
+                        </div>
+                        <div class="details">
+                            <span>Location</span>
+                            <span>Dhaka, Bangladesh</span>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="socialMedia">
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+
+                
+            </section>
+
+
+            <section class="col right">
+
+                <form class="messageForm" action="stor.php" method="POST">
+
+                    <div class="inputGroup halfWidth">
+                        <input type="text" name="fname" required="required">
+                        <label>Your First Name</label>
+                    </div>
+
+                    <div class="inputGroup halfWidth">
+                        <input type="text" name="lname" required="required">
+                        <label>Your Last Name</label>
+                    </div>
+
+                    <div class="inputGroup halfWidth">
+                        <input type="email" name="email" required="required">
+                        <label>Email</label>
+                    </div>
+
+                    <div class="inputGroup halfWidth">
+                        <input type="text" name="phone" required="required">
+                        <label>Phone Number</label>
+                    </div>
+
+                    <div class="inputGroup fullWidth">
+                        <textarea placeholder="Message" name="message" required="required"></textarea>
+                        <label>Say Something</label>
+                    </div>
+
+                    <div class="inputGroup fullWidth">
+                        <button type="submit" value="submit">Send Message</button>
+                        <input type="submit" value="submit" class="btn">
+                    </div>
+
+                </form>
+
+            </section>
+
+        </main>
+    </div>
+</body>
+
+</html>
